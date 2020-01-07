@@ -17,3 +17,6 @@ To test the possible scenarios in which iRODS could be used.
 
 ## Prospective people that could be involved
 - Someone from astronomy affiliated with Astron/LOFAR: they already use iRODS massively (PB/year).
+
+## Useful links
+Metadata template for plants: https://www.ncbi.nlm.nih.gov/biosample/docs/packages/Plant.1.0/
