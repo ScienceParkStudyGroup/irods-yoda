@@ -1,7 +1,7 @@
 # Deploying iRODS and YODA at SILS and IBED
 The idea is to test how we could use iRODS and possibly YODA to enhance our research analyses. 
 
-## iROFS use cases
+## iRODS use cases
 To test the possible scenarios in which iRODS could be used. 
 1. Genomics 
 2. XX
