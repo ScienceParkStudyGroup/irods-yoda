@@ -1,26 +1,34 @@
 # Description of a case-study for the Radar Aeroecology group
+Three major points:
+-Reusability
+-Accesibility
+-Integration
 
-# Current infrastructure
+
+
+# Reusability: Current infrastructure
 ## Local (UvA)
 ### S3 storage [IN USE]: fnwi-s0.science.uva.nl
-Serves as input (staging) and output (production)
+Serves as input (staging) and output (production). Is hosted by FEIOG and part of the FNWI-S0 setup. S3 functionality on top of Samba / network drives through Minio
 ### uvaRadar (R) library [IN USE]
-Serves as predominant research tool. Library expands on a industry standard library (bioRad) and acts as a bridge between our infrastructure, existing tools & platform for new tools used for this type of research.
+Serves as predominant research tool. 
+Library expands on a industry standard library (bioRad) and acts as a bridge between our infrastructure, existing tools & platform for new tools used for this type of research.
 ## Remote (Surf)
 ### Cluster [IN USE]: lisa.surfsara.nl
-Serves as main calculation tool for the generation of products out of input files in the staging zone.
+Serves as main calculation tool for the generation of products out of input files in the staging zone. Directly connects to our S3 datastore, reads input, places output
 ### Cloud storage [DEPREC]: researchdrive.surfsara.nl
-Old storage platform
+Old storage platform. This platform is deprecated as the performance for our purpose did not meet demands.
 ### HPC Cloud (VM) [NOT IN USE]: https://ui.hpccloud.surfsara.nl
-Not yet in use - depends on development of radar cluster
+Not yet in use - depends on development of radar cluster. 
+This is a possible tool we might use for a monitoring tool / auto deployement of jobs based on staging area 
+### REST api [NOT IN USE] 
+Part of future plans to use REST to perform certain BI / routine tasks.
 
-# Whish list:
-## Scalable computing 
-exploratory analysis
-## Tool server
-exploratory analysis
-## Database(s) / metrics / insights
-Business Intelligence
+# Remote sources (input) access // KNMI//UK/NO...ENRAM
+## European Operational Program for Exchange of Weather Radar Information (EUMETNET/OPERA) 
+## MetOffice(s)
+## Research institutes
+
 
 # Irods specifics:
 ## Data / account permission management
@@ -31,14 +39,6 @@ Business Intelligence
 ###  Colaborators, external & internal
 ### Data ingestion external colaborators
 ### Data sharing to public without violation of specific licenses
-
-
-
-# Remote sources (input) access // KNMI//UK/NO...ENRAM
-## European Operational Program for Exchange of Weather Radar Information (EUMETNET/OPERA) 
-## MetOffice(s)
-## Research institutes
-
 ## Data integration
 # Multiple source usage (Weather // GPS // ??)
 Research questions can be asked depending on the availability of data. Currently, we rely on our own data store with our farmiliar polar volume & vertical profile data. Some research is now extending in enriching their research with the addition of data which in practice describes the same phenomenon but measured with a different measuring tool, strategy and subsequently data format. These data sources are now sparsely combined due to, what I think, is the lack of calibration between the two. Linking these sources by for example metadata: what? where? how? could provide a first order of identifying relationships which are observed in both methodologies. Currently - manual linking of meta data is done as opposed to a being provided an overview with "possible data sources / types".
@@ -49,6 +49,22 @@ I doubt that the working of IRODS should be the execution of data merging - but 
 
 The actual integration should, probably, be left at the user.
 
+
+# actual use case to test a full workflow
+## Description of the use case with the actors and actions
+
+
+# General Whish list:
+## Scalable computing 
+For exploratory analysis, scalable computing could prove to be very beneficial. 
+Currently, our department is working on scalable computing for a data exploration environment through Jupyter notebook(s).
+However, there are many flavors of options that can be used, the exact one depends heavily on the eventual use of the system. 
+Now, jupyter notebook is explored to provide a single access point for researchers where existing code can be run efficiently on a large amount of resources.
+## Tool server
+Closely intertwined with the scalable computing. The difference 
+## Database(s) / metrics / insights
+Business Intelligence
 ## Account management
 # Cross-institute colaboration
 # Data policy management
+
