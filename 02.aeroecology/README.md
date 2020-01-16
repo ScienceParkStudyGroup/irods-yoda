@@ -1,17 +1,17 @@
 # Description of a case-study for the Radar Aeroecology group
 
-## Current infrastructure
-### Local (UvA)
-#### S3 storage [IN USE]: fnwi-s0.science.uva.nl
+# Current infrastructure
+## Local (UvA)
+### S3 storage [IN USE]: fnwi-s0.science.uva.nl
 Serves as input (staging) and output (production)
-#### uvaRadar (R) library [IN USE]
-Serves as predominant research tool 
-### Remote (Surf)
-#### Cluster [IN USE]: lisa.surfsara.nl
+### uvaRadar (R) library [IN USE]
+Serves as predominant research tool. Library expands on a industry standard library (bioRad) and acts as a bridge between our infrastructure, existing tools & platform for new tools used for this type of research.
+## Remote (Surf)
+### Cluster [IN USE]: lisa.surfsara.nl
 Serves as main calculation tool for the generation of products out of input files in the staging zone.
-#### Cloud storage [DEPREC]: researchdrive.surfsara.nl
+### Cloud storage [DEPREC]: researchdrive.surfsara.nl
 Old storage platform
-#### HPC Cloud (VM) [NOT IN USE]: https://ui.hpccloud.surfsara.nl
+### HPC Cloud (VM) [NOT IN USE]: https://ui.hpccloud.surfsara.nl
 Not yet in use - depends on development of radar cluster
 
 # Whish list:
@@ -19,7 +19,7 @@ Not yet in use - depends on development of radar cluster
 exploratory analysis
 ## Tool server
 exploratory analysis
-## Database(s) for
+## Database(s) / metrics / insights
 Business Intelligence
 
 # Irods specifics:
