@@ -1,3 +1,5 @@
+https://mybinder.org/v2/gh/ScienceParkStudyGroup/irods-yoda/master
+
 # Deploying iRODS and YODA at SILS and IBED
 The idea is to test how we could use iRODS and possibly YODA to enhance our research analyses. 
 
