@@ -13,6 +13,7 @@ To test the possible scenarios in which iRODS could be used.
 ## People currently involved 
 - Berend Wijers, computational support staff (IBED).
 - Evelien Jongepier, bioinformatician (IBED).
+- Johannes De Groeve, data manager (IBED).
 - Frans van der Kloet, research assistant (SILS).
 - Marc Galland, support scientist for code/data (SILS).
 - Arthur Newton, Advisor Data Management Services (SURFsara).
