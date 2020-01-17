@@ -1,0 +1,6 @@
+name: irods
+channels:
+  - bioconda
+  - conda-forge  
+dependencies:
+  - enasearch = 0.2.22
