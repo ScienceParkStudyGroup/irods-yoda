@@ -1,8 +1,9 @@
 # Description of a case-study for the Radar Aeroecology group
 Three major points:
--Reusability
--Accesibility
--Integration
+-Reusability of existing infrastructure
+-Accesibility management of varying systems for varying users for varying datasets
+-Integration of datasets within and between institutes / organizations. Be able to query a large vault for data which "might" enrich your data
+-Integration of datasets as a new product?
 
 
 
@@ -30,7 +31,9 @@ Part of future plans to use REST to perform certain BI / routine tasks.
 ## Research institutes
 
 
-# Irods specifics:
+# Irods specifics (whish list?):
+## FAIR
+### Submission of papers & data, tracking & reusing
 ## Data / account permission management
 ### Account management of varying levels for accessing the S3 store. 
 ### Institute
