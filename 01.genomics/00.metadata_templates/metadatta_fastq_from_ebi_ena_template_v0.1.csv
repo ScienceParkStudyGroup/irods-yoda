@@ -1,0 +1,23 @@
+﻿attribute,value,unit,fastq_file_name,format,comment
+project_id,00000001,,file1.fastq,integer,autoincremented
+project_name,defence in the wild,,file1.fastq,free text,
+person_name,marc galland,,file1.fastq,,
+person_email,m.galland@uva.nl,,file1.fastq,email address,Preferably a professional email.
+person_orcid_id,0000-0003-2161-8689,,file1.fastq,orcid id,ORCID organisation identifier. Unique for each registered user.
+person_role,author,,file1.fastq,constrained text,"""submitter"" or ""author"""
+person_affiliation,"university of amsterdam, sils, plant physiology",,file1.fastq,free text,
+sequencing_platform_manufacturer,Illumina,,file1.fastq,constrained text,controlled vocabulary (from a list of manufacturers)
+sequencing_platform,HiSeq2000,,file1.fastq,constrained text,controlled vocabulary (from a list of machines)
+type,fastq,,file1.fastq,constrained text (fastq),
+platform_unit_id,,,file1.fastq,,
+paired_end,no,,file1.fastq,,"""yes"" for paired-end reads, ""no"" for single-end"
+organism_common_name,tomato,,file1.fastq,constrained text,
+organism_scientific_name,Solanum lycopersicum,,file1.fastq,species and genus,Upper case to species
+organism_ncbi_taxon_id,4081,,file1.fastq,A number,Number can be retrieved from NCBI Taxonomy database: https://www.ncbi.nlm.nih.gov/taxonomy/
+plant_ontology_id,PO:0004509,,file1.fastq,XX:number,from planteome.org
+plant_ontology_description,shoot axis trichome,,file1.fastq,constrained text,controlled description (from the PO database)
+genotype,moneymaker,,file1.fastq,,
+institution,University of amsterdam,,file1.fastq,free text,
+grant_name,defence in the wild,,file1.fastq,free text,optional
+grant_number,12988,,file1.fastq,free text,optional. A NWO project number for instance
+funding_source,NWO,,file1.fastq,free text,a funding agency
