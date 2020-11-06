@@ -1,0 +1,44 @@
+﻿attribute,value,unit,fastq_file_name,format,comment
+project_id,VIDI-123456,,file1.fastq,integer,autoincremented
+project_title,defence in the wild,,file1.fastq,free text,
+project_description,specialised metabolites with insecticide activity,,file1.fastq,free text,
+project_institution,University of amsterdam,,file1.fastq,free text,
+project_grant_name,defence in the wild,,file1.fastq,free text,optional
+project_grant_number,12988,,file1.fastq,free text,optional. A NWO project number for instance
+project_funding_source,NWO,,file1.fastq,free text,a funding agency
+investigation_id,20 accessions,,file1.fastq,free text,
+investigation_title,20 wild and cultivated tomatoes,,file1.fastq,free text,
+investigation_description,blablabla,,file1.fastq,free text,
+study_id,study-01,,file1.fastq,free text,
+study_title,mRNA-seq and sRNA-seq of stem trichomes with Proton Ion I,,file1.fastq,free text,
+study_description,sequencing transcriptomes from the set of 20 accessions,,file1.fastq,free text,
+sample_identifier,mm-stem-trichomes-1,,file1.fastq,free text,not sure about this...
+collected_by,marc galland,,file1.fastq,text,
+collected_by_email,m.galland@uva.nl,,file1.fastq,email address,Preferably a professional email.
+collected_by_orcid_id,0000-0003-2161-8689,,file1.fastq,orcid id,ORCID organisation identifier. Unique for each registered user.
+collection_date,03/11/2020,,file1.fastq,date,ISO date?
+collection_time,12:00,,file1.fastq,time,
+geographical_location_latitude,52.3673008 N,,file1.fastq,latitude,ISO?
+geographical_location_longitude,4.8998197 E,,file1.fastq,longitude,ISO?
+geographical_location_region,North Holland,,file1.fastq,,
+geographical_location_city,Amsterdam,,file1.fastq,,
+environmental_biome,PO:0025034,,file1.fastq,PO id,should have an entry in ENVO ontology (https://www.ebi.ac.uk/ols/ontologies/envo)
+growth_condition,???,,file1.fastq,,
+isolation_protocol,???,,file1.fastq,,
+plant_structure,PO:0025176,stem trichome,file1.fastq,PO id,https://bioportal.bioontology.org/ontologies/PO
+plant_developmental_stage,PO_0007070,SE.08 eight nodes or internodes visible stage,file1.fastq,,
+sample_age,6,weeks,file1.fastq,,
+growth_facility,greenhouse,,file1.fastq,constrained text,"greenhouse, field or growth chamber"
+organism_genotype,Moneymaker,,file1.fastq,text,name or code for genotype
+organism_genetic_modification,WT,,file1.fastq,text,"wild-type, mutant e.g. CrisprCas9 knock-out, etc."
+organism_common_name,tomato,,file1.fastq,constrained text,
+organism_scientific_name,Solanum lycopersicum,,file1.fastq,species and genus,Upper case to species
+organism_ncbi_taxon_id,4081,,file1.fastq,A number,Number can be retrieved from NCBI Taxonomy database: https://www.ncbi.nlm.nih.gov/taxonomy/
+organism_subspecific_genetic_lineage_rank,cultivar,,file1.fastq,constrained text,"a list of values are possible: cultivar, introgression line, wild species, etc."
+organism_parental_line,None,,file1.fastq,text,parental background of a mutant for instance
+growth_medium,GMO_001941,Soil,file1.fastq,constrained text,https://bioportal.bioontology.org/ontologies/GMO
+growth_culture_medium,Murashige and Skoog medium,,file1.fastq,text,For in vitro and hydroponics only
+sequencing_platform_manufacturer,Illumina,,file1.fastq,constrained text,controlled vocabulary (from a list of manufacturers)
+sequencing_platform,HiSeq2000,,file1.fastq,constrained text,controlled vocabulary (from a list of machines)
+type,fastq,,file1.fastq,constrained text ,
+paired_end,no,,file1.fastq,,"""yes"" for paired-end reads, ""no"" for single-end"
